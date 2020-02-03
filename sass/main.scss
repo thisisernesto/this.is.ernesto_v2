@@ -1,0 +1,21 @@
+// Global color variables and CSS Reset
+@import 'abstracts/variables.scss';
+@import 'base/reset.scss';
+
+//Font-Face Importing
+@import 'base/typography.scss';
+
+//Page specific styles;
+@import 'pages/home.scss';
+
+//Individual component styles for global buttons and cards;
+@import 'components/buttons.scss';
+@import 'components/cards.scss';
+
+//Individual layout components from the home page in the order they appear on the page;
+@import 'layout/navigation.scss';
+@import 'layout/hero.scss';
+@import 'layout/about_me.scss';
+@import 'layout/work.scss';
+@import 'layout/blog.scss';
+@import 'layout/contact.scss';
