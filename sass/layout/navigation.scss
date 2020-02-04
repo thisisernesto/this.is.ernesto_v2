@@ -1,3 +1,8 @@
+.nav-wrapper {
+    position: fixed;
+    min-width: 100%;
+}
+
 nav {
     display: flex;
     justify-content: space-between;
@@ -8,6 +13,7 @@ nav {
     padding: 0 125px;
     font-family: 'Inconsolata', monospace;
     opacity: 1;
+    z-index: 1;
 }
 
 .header-logo {
@@ -27,12 +33,12 @@ nav {
     font-size: 20px;
 }
 
-.toogle-menu {
+.toggle-menu {
     display: none;
     cursor: pointer;
 }
 
-.toogle-menu div {
+.toggle-menu div {
     width: 25px;
     height: 3px;
     background-color: $bright-blue;
@@ -69,9 +75,10 @@ nav {
     .nav-links li {
         padding-top: 30px;
         padding-bottom: 10px;
+        opacity: 0;
     }
 
-    .toogle-menu {
+    .toggle-menu {
         display: block;
         padding: 0 25px;
     }
@@ -79,4 +86,16 @@ nav {
 
 .nav-active {
     transform: translateX(0%);
+}
+
+@keyframes navLinkFade {
+    from{
+        opacity: 0;
+        transform: (50px);
+    }
+
+    to{
+        opacity: 1;
+        transform: (0px);
+    }
 }
