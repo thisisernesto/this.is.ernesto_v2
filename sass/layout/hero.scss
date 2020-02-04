@@ -1,1 +1,46 @@
- 
+.hero-section {
+    color: $light-slate;
+    max-width: 1020px;
+    margin: 0 auto;
+    padding-top: 220px;
+    text-align: center;
+}
+
+.hero-line-animated {
+    font-family: 'Inconsolata', monospace;
+    color: $bright-blue;
+    font-size: 26px;
+    text-align: left;
+}
+
+.hero-line-name {
+    font-family: SF-UI-Display-SemiBold;
+    font-size: 80px;
+    position: relative;
+    left: -4px;
+    padding-top: 45px;
+    text-align: left;
+}
+
+.hero-line-header {
+    font-family: SF-UI-Display-SemiBold;
+    font-size: 80px;
+    color: $slate;
+    position: relative;
+    top: -15px;
+    left: -4px;
+    text-align: left;
+}
+
+.hero-line-subheader{
+    max-width: 550px;
+    font-size: 22px;
+    letter-spacing: 0.50px;
+    padding-top: 40px;
+    text-align: left;
+}
+
+.scroll-down-button {
+    display: inline-block;
+    margin-top: 60px;
+}
