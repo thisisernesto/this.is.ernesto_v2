@@ -5,7 +5,7 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    min-height: 90px;
+    min-height: 60px;
     background-color: $main-background;
     box-shadow: 0px 3px 70px rgba(0, 0, 0, 0.15);
     padding: 0 125px;
@@ -27,7 +27,7 @@ nav {
 }
 .nav-links a {
     text-decoration: none;
-    padding: 25px 25px;
+    padding: 15px 25px;
     font-size: 20px;
     color: $light-slate;
 }

@@ -26,9 +26,15 @@
 
 body {
   background-color: #132438;
-  font-family: SF-UI-Display-Light;
-  font-size: 20px;
-  letter-spacing: 0.8px; }
+  font-family: 'SF-UI-Display-Light', sans-serif;
+  font-size: 18px;
+  letter-spacing: 0.8px;
+  color: #BEE3EC; }
+
+.section-title-style {
+  font-family: 'Inconsolata', monospace;
+  font-size: 38px;
+  color: #53F1D7; }
 
 nav {
   position: fixed;
@@ -36,7 +42,7 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  min-height: 90px;
+  min-height: 60px;
   background-color: #132438;
   box-shadow: 0px 3px 70px rgba(0, 0, 0, 0.15);
   padding: 0 125px;
@@ -54,7 +60,7 @@ nav {
 
 .nav-links a {
   text-decoration: none;
-  padding: 25px 25px;
+  padding: 15px 25px;
   font-size: 20px;
   color: #BEE3EC; }
 
@@ -160,3 +166,13 @@ nav {
 .scroll-down-button:hover {
   transform: translateY(10px);
   -webkit-transform: translateY(10px); }
+
+.about-section {
+  max-width: 1020px;
+  margin: 0 auto;
+  padding-top: 180px; }
+
+.about-section-description {
+  text-align: left;
+  max-width: 500px;
+  padding-top: 45px; }

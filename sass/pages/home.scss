@@ -1,6 +1,12 @@
 body {
     background-color: $main-background;
-    font-family: SF-UI-Display-Light;
-    font-size: 20px;
+    font-family: 'SF-UI-Display-Light', sans-serif;
+    font-size: 18px;
     letter-spacing: 0.8px;
+    color: $light-slate;
+}
+.section-title-style {
+    font-family: 'Inconsolata', monospace;
+    font-size: 38px;
+    color: $bright-blue;
 }
