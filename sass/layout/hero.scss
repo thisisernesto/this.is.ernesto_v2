@@ -5,12 +5,24 @@
     padding-top: 200px;
     text-align: center;
 }
+.hero-line-animated-p{
+    text-align: left;
+}
 .hero-line-animated {
     font-family: 'Inconsolata', monospace;
     color: $bright-blue;
     font-size: 22px;
-    text-align: left;
 }
+.cursor {
+    display: inline-block;
+    width: 10px;
+    background-color: $bright-blue;
+    margin-left: 0.1rem;
+    animation: blink 1s infinite;
+}
+
+
+
 .hero-line-name {
     font-family: 'SF-UI-Display-SemiBold', sans-serif;
     font-size: 76px;

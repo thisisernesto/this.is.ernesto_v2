@@ -8,3 +8,17 @@
     max-width: 500px;
     padding-top: 45px;
 }
+.tech-list {
+    max-width: 500px;
+    width: 100%;
+    padding-top: 45px;
+    display: flex;
+}
+.column-list {
+    margin: 0 35px 25px;
+    font-family: 'Inconsolata', monospace;
+    font-size: 18px;
+    line-height: 1.5;
+    list-style-type: square;
+    color: $bright-blue;
+}

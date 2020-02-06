@@ -128,11 +128,20 @@ nav {
   padding-top: 200px;
   text-align: center; }
 
+.hero-line-animated-p {
+  text-align: left; }
+
 .hero-line-animated {
   font-family: 'Inconsolata', monospace;
   color: #53F1D7;
-  font-size: 22px;
-  text-align: left; }
+  font-size: 22px; }
+
+.cursor {
+  display: inline-block;
+  width: 10px;
+  background-color: #53F1D7;
+  margin-left: 0.1rem;
+  animation: blink 1s infinite; }
 
 .hero-line-name {
   font-family: 'SF-UI-Display-SemiBold', sans-serif;
@@ -176,3 +185,17 @@ nav {
   text-align: left;
   max-width: 500px;
   padding-top: 45px; }
+
+.tech-list {
+  max-width: 500px;
+  width: 100%;
+  padding-top: 45px;
+  display: flex; }
+
+.column-list {
+  margin: 0 35px 25px;
+  font-family: 'Inconsolata', monospace;
+  font-size: 18px;
+  line-height: 1.5;
+  list-style-type: square;
+  color: #53F1D7; }
