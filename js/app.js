@@ -4,7 +4,7 @@ const navSlide=()=> {
     const navLinks = document.querySelectorAll('.nav-links li');
 
     burger.addEventListener('click', ()=> {
-        //Toogle for the navbar
+        //Toggle for the navbar
         navBar.classList.toggle('nav-active');
 
         //Animations for the individual links
