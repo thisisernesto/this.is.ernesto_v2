@@ -1,14 +1,21 @@
-.about-section {
+.about-me-section {
     max-width: 1020px;
     margin: 0 auto;
     padding-top: 180px;
 }
-.about-section-description{
-    text-align: left;
-    max-width: 500px;
-    padding-top: 45px;
+.about-content-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
-.tech-list {
+.about-content-text {
+    display: block;
+}
+.about-content-description {
+    padding-top: 45px;
+    max-width: 500px;
+}
+.about-content-tech {
     max-width: 500px;
     width: 100%;
     padding-top: 45px;
@@ -19,6 +26,17 @@
     font-family: 'Inconsolata', monospace;
     font-size: 18px;
     line-height: 1.5;
-    list-style-type: square;
     color: $bright-blue;
+    
+    li {
+        list-style-type: square;
+    }
+}
+.image-profile{
+    height: 300px;
+    width: 300px;
+    position: relative;
+    top: 40px;
+    right: 60px;
+    border-radius: 3px;
 }
