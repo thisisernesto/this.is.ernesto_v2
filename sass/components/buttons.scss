@@ -1,1 +1,18 @@
 // Properties for all buttons in the page
+.project-button-behance {
+  font-family: 'Inconsolata', monospace;
+  font-size: 20px;
+  color: $bright-blue;
+  text-align: center; 
+  border-style: solid;
+  border-width: 1px;
+  border-color: $bright-blue;
+  border-radius: 3px;
+  max-width: 200px;
+  padding: 18px 15px 18px 15px;
+  cursor: pointer;
+  transition: 0.4s ease;
+}
+.project-button-behance:hover {
+  background: rgba(82, 237, 212, 0.10);
+}

@@ -5,8 +5,15 @@ body {
     letter-spacing: 0.8px;
     color: $light-slate;
 }
+.megadiv {
+    padding-left: 150px;
+    padding-right: 150px;
+}
 .section-title-style {
     font-family: 'Inconsolata', monospace;
     font-size: 38px;
     color: $bright-blue;
+}
+.remove-hyperlink {
+    text-decoration: none;
 }

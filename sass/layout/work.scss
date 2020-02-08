@@ -1,1 +1,56 @@
- 
+.featured-projects-section {
+  max-width: 1020px;
+  margin: 0 auto;
+  padding-top: 200px;
+}
+
+//Project container with a grid generator to correctly place the image and text.
+.project-container {
+  padding-top: 50px;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  align-items: center;
+}
+
+.project-image {
+  img {
+    border-radius: 3px;
+  }
+}
+.project-text-card {
+  background-color: rgba(37, 50, 68, 0.95);
+  text-align: right;
+  border-radius: 3px;
+  box-shadow: 0px 3px 70px rgba(0, 0, 0, 0.15);
+  
+  h3 {
+    font-family: 'SF-UI-Display-Semibold', sans-serif;
+    font-size: 30px;
+    padding: 30px 30px 20px 0;
+  }
+  .project-description {
+    padding: 0 30px 20px 30px;
+  }
+  .project-specs {
+    font-family: 'Inconsolata', monospace;
+    color: $bright-blue;
+    padding: 0 30px 30px 30px;
+  }
+  a {
+    display: inline-block;
+    position: relative;
+    right: 30px;
+    padding-bottom: 30px;
+  }
+}
+
+//grid-area property uses the following syntax:
+//grid-area: grid-row-start / grid-column-start / grid-row-end / grid-column-end
+.text-opt1 {
+  grid-area: 1 / 4 / 1 / 6;
+}
+.img-opt1 {
+  grid-area: 1 / 1 / 1 / 5;
+}
