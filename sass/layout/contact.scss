@@ -1,1 +1,30 @@
- 
+.contact-me-container {
+  background-color: $light-navy;
+  height: 600px;
+  text-align: center;
+  margin-top: 250px;
+}
+.contact-me-text {
+  max-width: 685px;
+  margin: 0 auto;
+  padding-top: 60px;
+}
+.contact-me-description {
+  font-size: 22px;
+  padding-top: 50px;
+  padding-bottom: 70px;
+}
+.socialmedia-icons {
+  padding-top: 100px;
+}
+.socialmedia-icon-size {
+  margin-left: 15px;
+  margin-right: 15px;
+}
+.copyright {
+  font-family: 'Inconsolata', monospace;
+  font-size: 16px;
+  color: $bright-blue;
+  padding-top: 50px;
+}
+
