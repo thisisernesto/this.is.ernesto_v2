@@ -40,6 +40,12 @@ body {
   font-size: 38px;
   color: #53F1D7; }
 
+.center-title-style {
+  text-align: center; }
+
+.right-title-style {
+  text-align: right; }
+
 .remove-hyperlink {
   text-decoration: none; }
 
@@ -58,6 +64,24 @@ body {
   transition: 0.4s ease; }
 
 .project-button-behance:hover {
+  background: rgba(82, 237, 212, 0.1); }
+
+.article-archive-button {
+  font-family: 'Inconsolata', monospace;
+  font-size: 20px;
+  color: #53F1D7;
+  text-align: center;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #53F1D7;
+  border-radius: 3px;
+  max-width: 300px;
+  padding: 18px 15px 18px 15px;
+  cursor: pointer;
+  transition: 0.4s ease;
+  margin: 0 auto; }
+
+.article-archive-button:hover {
   background: rgba(82, 237, 212, 0.1); }
 
 nav {
@@ -242,7 +266,7 @@ nav {
 .featured-projects-section {
   max-width: 1020px;
   margin: 0 auto;
-  padding-top: 200px; }
+  padding-top: 300px; }
 
 .project-container {
   padding-top: 50px;
@@ -284,11 +308,8 @@ nav {
 
 .minor-projects-section {
   max-width: 1020px;
-  padding-top: 200px;
+  padding-top: 300px;
   margin: 0 auto; }
-
-.center-title-style {
-  text-align: center; }
 
 .minor-projects-container {
   max-width: 1020px;
@@ -326,3 +347,60 @@ nav {
     display: inline-block;
     padding-bottom: 30px;
     padding-left: 30px; }
+
+.blog-section {
+  max-width: 1020px;
+  margin: 0 auto;
+  padding-top: 300px; }
+
+.articles-container {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 3px;
+  border-color: #253244;
+  background-color: #253244;
+  box-shadow: 0px 3px 70px rgba(0, 0, 0, 0.15);
+  transition: ease 0.2s; }
+
+.articles-container:hover {
+  border-color: #53F1D7;
+  -webkit-transform: translateY(-5px);
+  transform: translateY(-5px); }
+
+.article-date {
+  font-family: 'Inconsolata', monospace;
+  font-size: 20px;
+  color: #53F1D7;
+  padding: 40px 0 20px 40px; }
+
+.article-title {
+  font-family: 'SF-UI-Display-Semibold', sans-serif;
+  font-size: 52px;
+  color: #BEE3EC;
+  padding: 0 0 20px 40px;
+  line-height: 1; }
+
+.article-subheader {
+  padding: 0 40px 20px 40px;
+  color: #BEE3EC; }
+
+.article-tags-image {
+  display: inline;
+  padding: 0 0 20px 40px; }
+
+.article-tags {
+  font-family: 'Inconsolate', monospace;
+  color: #53F1D7;
+  display: inline;
+  position: relative;
+  top: -25px;
+  padding: 0 0 0 20px; }
+
+.article-on-dev {
+  font-family: 'Inconsolate', monospace;
+  font-size: 16px;
+  color: #53F1D7;
+  text-align: right;
+  padding: 0 40px 40px 0; }

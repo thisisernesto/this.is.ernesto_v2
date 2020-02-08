@@ -1,7 +1,7 @@
 .featured-projects-section {
   max-width: 1020px;
   margin: 0 auto;
-  padding-top: 200px;
+  padding-top: 300px;
 }
 
 //Project container with a grid generator to correctly place the image and text.
@@ -55,14 +55,15 @@
   grid-area: 1 / 1 / 1 / 5;
 }
 
+
+/////////////////////////
+
+
 //Minor projects section specifics. Card styling uses the same styles from the featured projects
 .minor-projects-section {
   max-width: 1020px;
-  padding-top: 200px;
+  padding-top: 300px;
   margin: 0 auto;
-}
-.center-title-style {
-  text-align: center;
 }
 
 //Minor projects container flexbox setup
