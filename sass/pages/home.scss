@@ -4,6 +4,7 @@ body {
     font-size: 18px;
     letter-spacing: 0.8px;
     color: $light-slate;
+    -webkit-font-smoothing: antialiased;
 }
 .megadiv {
     padding-left: 150px;

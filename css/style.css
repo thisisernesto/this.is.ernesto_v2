@@ -30,7 +30,8 @@ body {
   font-family: 'SF-UI-Display-Light', sans-serif;
   font-size: 18px;
   letter-spacing: 0.8px;
-  color: #BEE3EC; }
+  color: #BEE3EC;
+  -webkit-font-smoothing: antialiased; }
 
 .megadiv {
   padding-left: 150px;

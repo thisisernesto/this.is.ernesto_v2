@@ -1,6 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
+<!--
+Hi! I see you've come to take a look under the hood. Feel free to navigate, there is a lot of stuff to see, so I'll
+try to make it easy.
 
+This website is built entirely on the basic stack (HTML, CSS, JavaScript), with Sass as the CSS pre-processor, and some 
+JavaScript external libraries that handles the scroll animations for example.
+
+If you'd like to see the Sass file structure that is generating the CSS, feel free to visit this website's
+repository on GitHub. As stated there this is not the final version I have planned for this layout. At some point,
+I intend to rebuild this entirely on Gatsby.js/GraphQL, so I'll have a scalable way of dealing with blog posts natively,
+plus the blazing fast performance of Gatsby.
+
+If you're interested in any aspects of this page, feel free to message me in any of my social medias and I'll do my best
+to get back to you with an answer.
+-->
 <head>
   <title>this.is.ernesto - Personal Website and Portfolio of Ernesto Resende</title>
   <meta charset="utf-8">
@@ -20,12 +34,13 @@
 </head>
 
 <body>
-
   <!--Start of the Navigation bar-->
   <nav data-aos="fade-in" data-aos-delay="850">
     <!--Logo image here later-->
     <div data-aos="fade-in" data-aos-delay="900">
-      <a href="#hero"><p class="header-logo">LOGO</p></a>
+      <a href="#hero">
+        <p class="header-logo">LOGO</p>
+      </a>
     </div>
     <ul class="nav-links" data-aos="fade-down" data-aos-delay="1100">
       <li><a href="#about-me" class="interaction">About</a></li>
@@ -48,9 +63,8 @@
             class="cursor">&NonBreakingSpace;</span></p>
         <h1 data-aos="fade-up" data-aos-delay="1500" class="hero-line-name">Ernesto Resende</h1>
         <h1 data-aos="fade-up" data-aos-delay="1600" class="hero-line-header">I develop things for the web.</h1>
-        <p data-aos="fade-up" data-aos-delay="1700" class="hero-line-subheader">I'm a freelancer graphic designer, UI/UX designer and front-end web developer
-          based
-          in Brazil, specialized in designing and building top-tier user interfaces for websites and web-apps.</p>
+        <p data-aos="fade-up" data-aos-delay="1700" class="hero-line-subheader">I'm a freelancer graphic designer, UI/UX
+          designer and front-end web developer based in Brazil, specialized in designing and building top-tier user interfaces for websites and web-apps.</p>
         <div data-aos="fade-up" data-aos-delay="1800">
           <a href="#about-me"><img src="img/icons/scroll_down_icon.svg" class="scroll-down-button" alt="Scroll Down Button"></a>
         </div>
@@ -100,7 +114,8 @@
     <!--End of the About Me section-->
     <!--Start of the Featured Projects section-->
     <div class="featured-projects-section">
-      <p data-aos="fade-in" data-aos-offset="50" data-aos-delay="300" class="section-title-style" id="featured-projects">/featured projects</p>
+      <p data-aos="fade-in" data-aos-offset="50" data-aos-delay="300" class="section-title-style"
+        id="featured-projects">/featured projects</p>
       <!--Start ot the Featured Project Container-->
       <div data-aos="fade-up" data-aos-offset="200" data-aos-delay="300" class="project-container">
         <div class="project-image img-opt1">
@@ -137,13 +152,14 @@
     <!--End of the Featured Projects section-->
     <!--Start of the Minor Projects Section -->
     <div class="minor-projects-section">
-      <p data-aos="fade-in" data-aos-offset="200" data-aos-delay="300" class="section-title-style center-title-style">/other minor projects</p>
+      <p data-aos="fade-in" data-aos-offset="200" data-aos-delay="300" class="section-title-style center-title-style">
+        /other minor projects</p>
       <div class="minor-projects-container">
         <!--Start of Minor Projects card container-->
         <div data-aos="fade-up" data-aos-offset="200" data-aos-delay="200" class="minor-text-card">
           <div class="text-wrapper">
-          <h3 class="minor-title">The Ultimate Eh Nois Playlist</h3>
-          <p class="minor-description">Cover for a playlist with curated sounds for the good times.</p>
+            <h3 class="minor-title">The Ultimate Eh Nois Playlist</h3>
+            <p class="minor-description">Cover for a playlist with curated sounds for the good times.</p>
           </div>
           <p class="minor-specs">Photoshop<span>&nbsp;&nbsp;</span>Premiere</p>
           <a href="#" class="remove-hyperlink">
@@ -154,8 +170,9 @@
         <!--Start of Minor Projects card container-->
         <div data-aos="fade-up" data-aos-offset="200" data-aos-delay="250" class="minor-text-card">
           <div class="text-wrapper">
-          <h3 class="minor-title">Not Great, Not Terrible</h3>
-          <p class="minor-description">Widescreen size poster based on Anatoly Dyatlov's infamous dialogue in HBO's Chernobyl.</p>
+            <h3 class="minor-title">Not Great, Not Terrible</h3>
+            <p class="minor-description">Widescreen size poster based on Anatoly Dyatlov's infamous dialogue in HBO's
+              Chernobyl.</p>
           </div>
           <p class="minor-specs">Photoshop<span>&nbsp;&nbsp;</span>Premiere</p>
           <a href="#" class="remove-hyperlink">
@@ -166,8 +183,9 @@
         <!--Start of Minor Projects card container-->
         <div data-aos="fade-up" data-aos-offset="200" data-aos-delay="300" class="minor-text-card">
           <div class="text-wrapper">
-          <h3 class="minor-title">League of Legends Status Tracker</h3>
-          <p class="minor-description">A fully fledged tracker for player information analysis built with League's API.</p>
+            <h3 class="minor-title">League of Legends Status Tracker</h3>
+            <p class="minor-description">A fully fledged tracker for player information analysis built with League's
+              API.</p>
           </div>
           <p class="minor-specs">Photoshop<span>&nbsp;&nbsp;</span>Premiere</p>
           <a href="#" class="remove-hyperlink">
@@ -180,29 +198,31 @@
     <!--End of the Minor Projects Section -->
     <!--Start of the Blog Section-->
     <div class="blog-section" id="articles">
-      <p data-aos="fade-in" data-aos-offset="200" data-aos-delay="200" class="section-title-style right-title-style">/articles</p>
+      <p data-aos="fade-in" data-aos-offset="200" data-aos-delay="200" class="section-title-style right-title-style">
+        /articles</p>
       <!--Start of the article box-->
       <a href="#" class="remove-hyperlink">
         <div data-aos="fade-up" data-aos-offset="200" data-aos-delay="200">
-        <div class="articles-container">
-          <div class="article">
-            <p class="article-date">20 Feb, 2020</p>
-            <h2 class="article-title">Setting up a dual-boot design/development workflow</h2>
-            <p class="article-subheader">In this article I travel trough the process of setting up a dual-boot workflow
-              that fitted both my design and development workflows using Windows and Kubuntu in pair with each other.
-            </p>
-            <img class="article-tags-image" src="img/icons/tag_icon.svg" alt="Article Tags">
-            <p class="article-tags">productivity, design, development</p>
-            <p class="article-on-dev">Read on Dev.to</p>
+          <div class="articles-container">
+            <div class="article">
+              <p class="article-date">20 Feb, 2020</p>
+              <h2 class="article-title">Setting up a dual-boot design/development workflow</h2>
+              <p class="article-subheader">In this article I travel trough the process of setting up a dual-boot
+                workflow
+                that fitted both my design and development workflows using Windows and Kubuntu in pair with each other.
+              </p>
+              <img class="article-tags-image" src="img/icons/tag_icon.svg" alt="Article Tags">
+              <p class="article-tags">productivity, design, development</p>
+              <p class="article-on-dev">Read on Dev.to</p>
+            </div>
           </div>
-        </div>
         </div>
       </a>
       <!--End of the article box-->
       <div data-aos="fade-up" data-aos-offset="200" data-aos-delay="200">
-      <a href="#" class="remove-hyperlink">
-        <p class="article-archive-button">See the blog archive</p>
-      </a>
+        <a href="#" class="remove-hyperlink">
+          <p class="article-archive-button">See the blog archive</p>
+        </a>
       </div>
     </div>
     <!--End of the Blog Section-->
@@ -211,13 +231,19 @@
   <div class="contact-me-container" id="contact">
     <div class="contact-me-text">
       <p class="section-title-style right-title-center">/contact me</p>
-      <p class="contact-me-description">Interested in my work? I'm always open to discuss project ideas and professional opportunities. Send me a direct mail or reach out to me in any of my social medias.</p>
-      <a href="#" class="remove-hyperlink"><p class="contact-me-button">Contact me</p></a>
+      <p class="contact-me-description">Interested in my work? I'm always open to discuss project ideas and professional
+        opportunities. Send me a direct mail or reach out to me in any of my social medias.</p>
+      <a href="#" class="remove-hyperlink">
+        <p class="contact-me-button">Contact me</p>
+      </a>
     </div>
     <div class="socialmedia-icons">
-      <a href="https://www.behance.net/Ernests0"><img src="img/icons/behance.svg" alt="" class="socialmedia-icon-size"></a>
-      <a href="https://github.com/thisisernesto"><img src="img/icons/github.svg" alt="" class="socialmedia-icon-size"></a>
-      <a href="https://www.linkedin.com/in/ernesto-resende"><img src="img/icons/linkedin.svg" alt="" class="socialmedia-icon-size"></a>
+      <a href="https://www.behance.net/Ernests0"><img src="img/icons/behance.svg" alt=""
+          class="socialmedia-icon-size"></a>
+      <a href="https://github.com/thisisernesto"><img src="img/icons/github.svg" alt=""
+          class="socialmedia-icon-size"></a>
+      <a href="https://www.linkedin.com/in/ernesto-resende"><img src="img/icons/linkedin.svg" alt=""
+          class="socialmedia-icon-size"></a>
       <a href="https://dev.to/thisisernesto"><img src="img/icons/dev.svg" alt="" class="socialmedia-icon-size"></a>
     </div>
     <p class="copyright">Designed and Built by Ernesto Resende - Copyright 2020</p>
@@ -232,5 +258,4 @@
     });
   </script>
 </body>
-
 </html>
