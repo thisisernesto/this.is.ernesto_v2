@@ -25,7 +25,7 @@ navSlide();
 const typedTextSpan = document.querySelector(".hero-line-animated");
 
 const textArray = ["Hi there, my name is"];
-const typingDelay = 60;
+const typingDelay = 40;
 
 let textArrayIndex = 0;
 let charIndex = 0;
