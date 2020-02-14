@@ -30,16 +30,21 @@ to get back to you with an answer.
   <meta property="og:site_name" content="this.is.ernesto">
   <link rel="icon" type="image/png" href="/example.png">
   <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
   <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 
 <body>
+  <!--Pre-loader makes sure everything is loaded before showing the page-->
+  <div class="loader">
+    <img class="animated fadeInDown" src="img/logo/[this.is.ernesto].png" alt="Loading...">
+  </div>
+  <!--Pre-loader end-->
   <!--Start of the Navigation bar-->
   <nav data-aos="fade-in" data-aos-delay="850">
-    <!--Logo image here later-->
     <div data-aos="fade-in" data-aos-delay="900">
       <a href="#hero">
-        <p class="header-logo">LOGO</p>
+        <img src="img/logo/this.is.ernesto-nav.png" class="header-logo" alt="this.is.ernesto.logo">
       </a>
     </div>
     <ul class="nav-links">
@@ -59,8 +64,7 @@ to get back to you with an answer.
   <div class="megadiv">
     <section>
       <div data-aos="fade-in" class="hero-section" id="hero">
-        <p class="hero-line-animated-p"><span class="hero-line-animated"></span><span
-            class="cursor">&NonBreakingSpace;</span></p>
+        <p data-aos="fade-up" data-aos-delay="1400" class="hero-line-mono">Hi there, my name is</p>
         <h1 data-aos="fade-up" data-aos-delay="1500" class="hero-line-name">Ernesto Resende</h1>
         <h1 data-aos="fade-up" data-aos-delay="1600" class="hero-line-header">I develop things for the web.</h1>
         <p data-aos="fade-up" data-aos-delay="1700" class="hero-line-subheader">I'm a freelancer graphic designer, UI/UX
@@ -107,7 +111,7 @@ to get back to you with an answer.
           </div>
         </div>
         <div>
-          <img class="image-profile" src="img/assets/profile-picture.jpeg" alt="">
+          <img class="image-profile" src="img/assets/profile-picture.png" alt="">
         </div>
       </div>
     </div>

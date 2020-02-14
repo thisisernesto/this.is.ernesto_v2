@@ -1,3 +1,9 @@
+window.addEventListener("load", function() {
+  const loader = document.querySelector(".loader")
+  loader.className += " hidden"; //class="loader hidden"
+});
+
+//Navbar slider for the mobile burguer menu
 const navSlide = () => {
   const burger = document.querySelector(".toggle-menu");
   const navBar = document.querySelector(".nav-links");
@@ -20,22 +26,3 @@ const navSlide = () => {
 };
 
 navSlide();
-
-//Typing animation for the hero section
-const typedTextSpan = document.querySelector(".hero-line-animated");
-
-const textArray = ["Hi there, my name is"];
-const typingDelay = 40;
-
-let textArrayIndex = 0;
-let charIndex = 0;
-
-function type() {
-  if (charIndex < textArray[textArrayIndex].length) {
-    typedTextSpan.textContent += textArray[textArrayIndex].charAt(charIndex);
-    charIndex++;
-    setTimeout(type, typingDelay);
-  }
-}
-
-type();

@@ -1,105 +1,104 @@
 //GENERAL PROPERTIES FOR THE NAVBAR CONTAINER
 nav {
-    position: fixed;
-    min-width: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    min-height: 70px;
-    background-color: $main-background;
-    box-shadow: 0px 3px 70px rgba(0, 0, 0, 0.15);
-    padding: 0 125px;
-    font-family: 'Inconsolata', monospace;
-    transition: all ease-in-out 0.5s;
-    z-index: 1;
+  position: fixed;
+  min-width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 70px;
+  background-color: $main-background;
+  box-shadow: 0px 3px 70px rgba(0, 0, 0, 0.15);
+  padding: 0 125px;
+  font-family: "Inconsolata", monospace;
+  transition: all ease-in-out 0.5s;
+  z-index: 1;
 }
 
 //HEADER LOGO
 .header-logo {
-    color: $bright-blue;
-    padding: 0 25px;
+  width: 200px;
 }
 
 //NAVIGATION BAR LINKS SPECIFICS
 .nav-links {
-    display: flex;
-    list-style: none;
+  display: flex;
+  list-style: none;
 }
 .nav-links a {
-    text-decoration: none;
-    padding: 20px 25px;
-    font-size: 20px;
-    color: $light-slate;
+  text-decoration: none;
+  padding: 20px 25px;
+  font-size: 20px;
+  color: $light-slate;
 }
 .interaction {
-    transition: all ease-in-out 0.3s;
-    border-bottom: solid 2px $main-background;
+  transition: all ease-in-out 0.3s;
+  border-bottom: solid 2px $main-background;
 }
 .interaction:hover {
-    color: $bright-blue;
-    border-bottom: solid 2px $bright-blue;
+  color: $bright-blue;
+  border-bottom: solid 2px $bright-blue;
 }
 
 //TOOGLE MENU CREATOR
 .toggle-menu {
-    display: none;
-    cursor: pointer;
+  display: none;
+  cursor: pointer;
 }
 .toggle-menu div {
-    width: 25px;
-    height: 3px;
-    background-color: $bright-blue;
-    margin: 5px;
-    border-radius: 10px;
+  width: 25px;
+  height: 3px;
+  background-color: $bright-blue;
+  margin: 5px;
+  border-radius: 10px;
 }
 
 //MEDIA QUERIE FOR LESS THEN 768px DEVICES
-@media screen and (max-width:768px) {
-    body {
-        overflow-x: hidden;
-    }
-    nav {
-        padding: 0 30px;
-        min-height: 60px;
-    }
-    .nav-links {
-        position: absolute;
-        right: 0px;
-        height: 280px;
-        top: 60px;
-        background-color: $main-background;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        padding: 30px;
-        transform: translateX(100%);
-        transition: transform 0.5s ease-in;
-    }
-    .nav-links li {
-        padding-top: 30px;
-        padding-bottom: 10px;
-        opacity: 0;
-    }
-    .toggle-menu {
-        display: block;
-        padding: 0 25px;
-    }
+@media screen and (max-width: 768px) {
+  body {
+    overflow-x: hidden;
+  }
+  nav {
+    padding: 0 30px;
+    min-height: 60px;
+  }
+  .nav-links {
+    position: absolute;
+    right: 0px;
+    height: 280px;
+    top: 60px;
+    background-color: $main-background;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    transform: translateX(100%);
+    transition: transform 0.5s ease-in;
+  }
+  .nav-links li {
+    padding-top: 30px;
+    padding-bottom: 10px;
+    opacity: 0;
+  }
+  .toggle-menu {
+    display: block;
+    padding: 0 25px;
+  }
 }
 
 //CUSTOM CLASS THAT JAVASCRIPT PUTS IN THE .nav-links TO MAKE IT ACTIVE
 .nav-active {
-    transform: translateX(0%);
+  transform: translateX(0%);
 }
 
 //ANIMATIONS FOR THE INDIVIDUAL LINKS IN THE MOBILE NAVBAR
 @keyframes navLinkFade {
-    from{
-        opacity: 0;
-        transform: (50px);
-    }
-    to{
-        opacity: 1;
-        transform: (0px);
-    }
+  from {
+    opacity: 0;
+    transform: (50px);
+  }
+  to {
+    opacity: 1;
+    transform: (0px);
+  }
 }
