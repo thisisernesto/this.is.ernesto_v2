@@ -39,3 +39,30 @@
     top: 40px;
     border-radius: 3px;
 }
+
+@media screen and (max-width: 1024px) {
+    .about-content-description {
+        max-width: 330px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .about-content-description {
+        font-size: 16px;
+    }
+    .image-profile {
+        display: none;
+    }
+}
+@media screen and (max-width: 480px) {
+    .about-content-description {
+        display: block;
+    }
+    .about-content-tech {
+        max-width: none;
+        flex-direction: row;
+    }
+    .column-list {
+        font-size: 16px;
+        margin: 0 20px 25px;
+    }
+}

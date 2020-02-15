@@ -8,7 +8,7 @@
 .project-container {
   padding-top: 50px;
   display: grid;
-  grid-template-columns: repeat(5, 1fr);
+  grid-template-columns: repeat(12, 1fr);
   grid-column-gap: 0px;
   grid-row-gap: 0px;
   align-items: center;
@@ -17,6 +17,8 @@
 .project-image {
   img {
     border-radius: 3px;
+    width: 100%;
+    height: auto;
   }
 }
 .project-text-card {
@@ -49,16 +51,51 @@
 //grid-area property uses the following syntax:
 //grid-area: grid-row-start / grid-column-start / grid-row-end / grid-column-end
 .text-opt1 {
-  grid-area: 1 / 4 / 1 / 6;
+  grid-area: 1 / 9 / 1 / 13;
 }
 .img-opt1 {
-  grid-area: 1 / 1 / 1 / 5;
+  grid-area: 1 / 1 / 1 / 10;
 }
 
+//Media queries for the Minor Projects Section
+@media screen and (max-width: 768px) {
+  .featured-projects-section {
+    padding-top: 300px;
+  }
+  .project-container {
+    display: block;
+  }
+
+  .project-text-card {
+    background: none;
+    text-align: left;
+    border-radius: 3px;
+    box-shadow: none;
+    
+    h3 {
+      padding: 30px 30px 20px 0;
+    }
+    .project-description {
+      padding: 0 30px 20px 0px;
+    }
+    .project-specs {
+      padding: 0 30px 30px 0;
+    }
+    a {
+      right: 0px;
+    }
+  }
+}
+@media screen and (max-width: 480px) {
+  .project-description {
+    font-size: 16px;
+  }
+  .project-specs {
+    font-size: 16px;
+  }
+}
 
 /////////////////////////
-
-
 //Minor projects section specifics. Card styling uses the same styles from the featured projects
 .minor-projects-section {
   max-width: 1020px;
@@ -70,9 +107,9 @@
 .minor-projects-container {
   max-width: 1020px;
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   flex-direction: row;
-  align-items: flex-start;
+  align-items: center;
   margin: 0px auto;
   padding-top: 50px;
 }
@@ -90,7 +127,6 @@
   position: relative;
   height: 100%;
   margin: 10px;
-  transition: ease 0.2s;
 
   .text-wrapper {
     min-height: 250px;
@@ -114,5 +150,27 @@
     display: inline-block;
     padding-bottom: 30px;
     padding-left: 30px;
+  }
+}
+
+//Media queries for the Minor Projects Section
+@media screen and (max-width: 1024px) {
+  .minor-projects-container {
+    flex-wrap: wrap;
+  }
+  .minor-text-card {
+    width: 45%;
+  }
+}
+@media screen and (max-width: 768px) {
+  .minor-projects-container {
+    justify-content: center;
+  }
+  .minor-text-card {
+    width: 100%;
+
+    .text-wrapper {
+      min-height: 200px;
+    }
   }
 }

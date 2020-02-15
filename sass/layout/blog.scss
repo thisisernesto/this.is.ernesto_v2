@@ -25,13 +25,13 @@
   font-family: 'Inconsolata', monospace;
   font-size: 20px;
   color: $bright-blue;
-  padding: 40px 0 20px 40px;
+  padding: 40px 40px 20px 40px;
 }
 .article-title {
   font-family: 'SF-UI-Display-Semibold', sans-serif;
   font-size: 52px;
   color: $light-slate;
-  padding: 0 0 20px 40px;
+  padding: 0 40px 20px 40px;
   line-height: 1;
 }
 .article-subheader{
@@ -55,5 +55,20 @@
   font-size: 16px;
   color: $bright-blue;
   text-align: right;
-  padding: 0 40px 40px 0;
+  padding: 0 40px 40px 40px;
+}
+
+@media screen and (max-width: 768px) {
+  .article-title {
+    font-size: 20px;
+  }
+  .article-subheader {
+    font-size: 16px;
+  }
+  .article-tags-image {
+    display: none;
+  }
+  .article-tags {
+    display:none;
+  }
 }

@@ -53,7 +53,7 @@ nav {
 }
 
 //MEDIA QUERIE FOR LESS THEN 768px DEVICES
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1024px) {
   body {
     overflow-x: hidden;
   }
@@ -82,7 +82,12 @@ nav {
   }
   .toggle-menu {
     display: block;
-    padding: 0 25px;
+    //padding: 0 25px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .header-logo {
+    width: 150px;
   }
 }
 
