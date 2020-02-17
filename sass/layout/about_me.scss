@@ -1,68 +1,77 @@
 .about-me-section {
-    max-width: 1020px;
-    margin: 0 auto;
-    padding-top: 180px;
+  max-width: 1020px;
+  margin: 0 auto;
+  padding-top: 180px;
 }
 .about-content-container {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 .about-content-text {
-    display: block;
+  display: block;
 }
 .about-content-description {
-    padding-top: 45px;
-    max-width: 500px;
+  padding-top: 45px;
+  max-width: 500px;
 }
 .about-content-tech {
-    max-width: 500px;
-    width: 100%;
-    padding-top: 45px;
-    display: flex;
+  max-width: 500px;
+  width: 100%;
+  padding-top: 45px;
+  display: flex;
 }
 .column-list {
-    margin: 0 35px 25px;
-    font-family: 'Inconsolata', monospace;
-    font-size: 18px;
-    line-height: 1.5;
-    color: $bright-blue;
-    
-    li {
-        list-style-type: square;
-    }
+  margin: 0 35px 25px;
+  font-family: "Inconsolata", monospace;
+  font-size: 18px;
+  line-height: 1.5;
+  color: $bright-blue;
+
+  li {
+    list-style-type: square;
+  }
 }
-.image-profile{
-    height: 250px;
-    width: 250px;
-    position: relative;
-    top: 40px;
-    border-radius: 3px;
+.image-profile {
+  height: 250px;
+  width: 250px;
+  position: relative;
+  top: 40px;
+  border-radius: 3px;
 }
 
 @media screen and (max-width: 1024px) {
-    .about-content-description {
-        max-width: 330px;
-    }
+  .about-content-description {
+    max-width: 330px;
+  }
 }
 @media screen and (max-width: 768px) {
-    .about-content-description {
-        font-size: 16px;
-    }
-    .image-profile {
-        display: none;
-    }
+  .about-content-container {
+    display: block;
+    text-align: center;
+  }
+  .about-content-description {
+    font-size: 16px;
+    max-width: 100%;
+    text-align: left;
+  }
+  .about-content-tech {
+    text-align: left;
+  }
+  .image-profile {
+    display: inline-block;
+  }
 }
 @media screen and (max-width: 480px) {
-    .about-content-description {
-        display: block;
-    }
-    .about-content-tech {
-        max-width: none;
-        flex-direction: row;
-    }
-    .column-list {
-        font-size: 16px;
-        margin: 0 20px 25px;
-    }
+  .about-content-description {
+    display: block;
+  }
+  .about-content-tech {
+    max-width: none;
+    flex-direction: row;
+  }
+  .column-list {
+    font-size: 16px;
+    margin: 0 20px 25px;
+  }
 }

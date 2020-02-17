@@ -27,4 +27,25 @@
   color: $bright-blue;
   padding-top: 70px;
 }
-
+@media screen and (max-width: 768px) {
+  .contact-me-text {
+    padding: 60px 50px 0 50px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .contact-me-container {
+    height: 750px;
+  }
+  .contact-me-description {
+    font-size: 16px;
+  }
+  .socialmedia-icon-size {
+    width: 30px;
+    height: 30px;
+  }
+  .copyright {
+    font-size: 12px;
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+}

@@ -59,11 +59,16 @@
 }
 
 @media screen and (max-width: 768px) {
+  .article-date {
+    padding: 20px 20px 20px 20px;
+  }
   .article-title {
     font-size: 20px;
+    padding: 0 20px 20px 20px; 
   }
   .article-subheader {
     font-size: 16px;
+    padding: 0 20px 20px 20px;
   }
   .article-tags-image {
     display: none;
