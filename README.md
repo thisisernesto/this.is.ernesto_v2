@@ -26,7 +26,7 @@ npm run compile-sass
 
 This project also uses the Animated on Scroll Library for scroll animations.
 
-##Code Standarts
+## Code Standarts
 The project makes use of the Front-End Checklist provided by thedaviddias to make sure all deployed code respects web code standarts like W3C compliance, linters and good coding practices both for readability and performance.
 
 ## License
