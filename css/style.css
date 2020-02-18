@@ -21,14 +21,13 @@
     width: 450px; }
 
 .hidden {
-  animation: fadeOut 1s;
+  animation: fadeOut 0.5s;
   animation-fill-mode: forwards; }
 
 @keyframes fadeOut {
   100% {
     opacity: 0;
-    display: none;
-    visibility: hidden; } }
+    display: none; } }
 
 @media screen and (max-width: 768px) {
   .loader img {
