@@ -27,7 +27,8 @@
 @keyframes fadeOut {
   100% {
     opacity: 0;
-    display: none; } }
+    display: none;
+    visibility: hidden; } }
 
 @media screen and (max-width: 768px) {
   .loader img {
