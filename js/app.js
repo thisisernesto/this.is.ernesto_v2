@@ -1,5 +1,8 @@
 //Page pre-loader
 window.addEventListener("load", function() {
+  AOS.init({
+    duration: 500
+  });
   const loader = document.querySelector(".loader")
   loader.className += " hidden"; //class="loader hidden"
 });
