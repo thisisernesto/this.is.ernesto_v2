@@ -111,6 +111,24 @@ body {
 .project-button-behance:hover {
   background: rgba(82, 237, 212, 0.1); }
 
+.see-my-work-button {
+  font-family: 'Inconsolata', monospace;
+  font-size: 20px;
+  color: #53F1D7;
+  text-align: center;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #53F1D7;
+  border-radius: 3px;
+  max-width: 220px;
+  margin-top: 60px;
+  padding: 18px 15px 18px 15px;
+  cursor: pointer;
+  transition: 0,4s ease; }
+
+.see-my-work-button:hover {
+  background: rgba(82, 237, 212, 0.1); }
+
 .article-archive-button {
   font-family: 'Inconsolata', monospace;
   font-size: 20px;
