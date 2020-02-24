@@ -1,6 +1,6 @@
 .contact-me-container {
   background-color: $light-navy;
-  height: 700px;
+  height: 630px;
   text-align: center;
   margin-top: 250px;
 }
@@ -34,7 +34,8 @@
 }
 @media screen and (max-width: 480px) {
   .contact-me-container {
-    height: 750px;
+    height: 650px;
+    margin-top: 150px;
   }
   .contact-me-description {
     font-size: 16px;

@@ -1,8 +1,20 @@
+.switch-lang {
+    max-width: 1020px;
+    margin: 0 auto;
+    padding-top: 100px;
+    padding-bottom: 5px;
+    font-family: 'Inconsolata', monospace;
+    color: $slate;
+    transition: 0.4s ease;
+}
+.switch-lang:hover {
+    color: $bright-blue;
+}
 .hero-section {
     color: $light-slate;
     max-width: 1020px;
     margin: 0 auto;
-    padding-top: 200px;
+    padding-top: 150px;
     text-align: center;
 }
 .hero-line-mono{
@@ -32,23 +44,18 @@
 .hero-line-subheader{
     max-width: 530px;
     font-size: 20px;
-    line-height: 1.3;
+    line-height: 1.5;
     padding-top: 50px;
     text-align: left;
 }
-.scroll-down-button {
-    display: inline-block;
-    margin-top: 70px;
-    transition: 0.2s ease-out;
-}
-.scroll-down-button:hover {
-    transform: translateY(10px);
-    -webkit-transform: translateY(10px);
-}
 
 @media screen and (max-width: 768px) {
+    .switch-lang {
+        padding-top: 70px;
+        font-size: 14px;
+    }
     .hero-section {
-        padding-top: 150px;
+        padding-top: 100px;
     }
     .hero-line-mono {
         font-size: 18px;
@@ -72,7 +79,7 @@
 
 @media screen and (max-width: 480px) {
     .hero-section {
-        padding-top: 150px;
+        padding-top: 80px;
     }
     .hero-line-mono {
         font-size: 16px;
@@ -85,9 +92,6 @@
     }
     .hero-line-subheader {
         font-size: 16px;
-    }
-    .scroll-down-button {
-        width: 25px;
-        margin-top: 40px;
+        padding-top: 30px;
     }
 }

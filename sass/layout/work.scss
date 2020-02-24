@@ -60,7 +60,7 @@
 //Media queries for the Minor Projects Section
 @media screen and (max-width: 768px) {
   .featured-projects-section {
-    padding-top: 300px;
+    padding-top: 200px;
   }
   .project-container {
     display: block;
@@ -161,6 +161,9 @@
   }
 }
 @media screen and (max-width: 768px) {
+  .minor-projects-section {
+    padding-top: 150px;
+  }
   .minor-projects-container {
     justify-content: center;
   }
