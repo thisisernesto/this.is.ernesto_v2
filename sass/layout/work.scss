@@ -58,6 +58,14 @@
 }
 
 //Media queries for the Minor Projects Section
+@media screen and (max-width: 1024px) {
+  .text-opt1 {
+    grid-area: 1 / 8 / 1 / 13;
+  }
+  .img-opt1 {
+    grid-area: 1 / 1 / 1 / 9;
+  }
+}
 @media screen and (max-width: 768px) {
   .featured-projects-section {
     padding-top: 200px;
