@@ -27,12 +27,13 @@
 }
 .article-title {
   font-family: 'SF-UI-Display-Semibold', sans-serif;
-  font-size: 52px;
+  font-size: 42px;
   color: $light-slate;
   padding: 0 40px 20px 40px;
   line-height: 1;
 }
 .article-subheader{
+  font-size: 20px;
   padding: 0 40px 20px 40px;
   color: $light-slate;
 }
@@ -64,7 +65,7 @@
     padding: 20px 20px 20px 20px;
   }
   .article-title {
-    font-size: 20px;
+    font-size: 28px;
     padding: 0 20px 20px 20px; 
   }
   .article-subheader {
