@@ -3,6 +3,7 @@ body {
     font-family: 'SF-UI-Display-Light', sans-serif;
     font-size: 18px;
     letter-spacing: 0.8px;
+    line-height: 130%;
     color: $light-slate;
     -webkit-font-smoothing: antialiased;
 }
@@ -32,6 +33,7 @@ body {
 
 .section-title-style {
     font-family: 'Inconsolata', monospace;
+    line-height: 100%;
     font-size: 38px;
     color: $bright-blue;
 }

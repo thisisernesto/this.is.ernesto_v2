@@ -29,15 +29,17 @@
 
   h3 {
     font-family: "SF-UI-Display-Semibold", sans-serif;
-    font-size: 30px;
+    font-size: 24px;
     padding: 30px 30px 20px 0;
   }
   .project-description {
+    font-size: 18px;
     padding: 0 30px 20px 30px;
   }
   .project-specs {
+    font-size: 16px;
     font-family: "Inconsolata", monospace;
-    color: $bright-blue;
+    color: $slate;
     padding: 0 30px 30px 30px;
   }
   a {
@@ -51,10 +53,10 @@
 //grid-area property uses the following syntax:
 //grid-area: grid-row-start / grid-column-start / grid-row-end / grid-column-end
 .text-opt1 {
-  grid-area: 1 / 9 / 1 / 13;
+  grid-area: 1 / 8 / 1 / 13;
 }
 .img-opt1 {
-  grid-area: 1 / 1 / 1 / 10;
+  grid-area: 1 / 1 / 1 / 9;
 }
 
 //Media queries for the Minor Projects Section
@@ -148,15 +150,18 @@
   }
   .minor-specs {
     font-family: "Inconsolata", monospace;
-    color: $bright-blue;
+    color: $slate;
     padding: 0 30px 30px 30px;
-    font-size: 16px;
+    font-size: 14px;
   }
   a {
     display: inline-block;
     padding-bottom: 30px;
     padding-left: 30px;
   }
+}
+.external-link {
+  width: 30px;
 }
 
 //Media queries for the Minor Projects Section
